@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Raleway:ital,wght@1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Background</title>
+  <style>
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  animation: changeBackground 9s linear forwards, showContent 9s linear forwards; /* Change background once every 9 seconds */
+  /* visibility: hidden; Initially hide the content */
+}
+
+@keyframes changeBackground {
+  0%, 16.66% { background-image: url('./images/Screenshot222.png'); opacity: 0.7; } /* Initial and fade out first image */
+  83.34%, 100% { background-image: url('./images/giphy.gif'); opacity: 0.7; } /* Fade in third image */
+}
+
+/* @keyframes showContent {
+  to { visibility: visible; } /* Show content after the animation completes */
+/* } */ */
+
+.content {
+  padding: 20px;
+  color: white;
+  text-align: center;
+  /* visibility: hidden; Initially hide the content */
+}
+  </style>
+</head>
+<body>
+    <div class="drop"></div>
+    <div class="wave"></div>
+  <spacerXX> </spacerXX>
+  <div class="title">
+  <h1 style="color: #7f0606" >Lorem Ipsum</h1>
+  <span class="drop"></span>
+  <span class="drop"></span>
+  <span class="drop"></span>
+  <span class="drop"></span>
+  <span class="drop"></span>
+    <p style="color: #fefefe">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin risus nunc, dictum eu auctor nec, sodales eu ex.
+    </p>
+    <a href="https://giphy.com/gifs/grim-reaper-horror-creepy-h5NLPVn3rg0Rq">Discover Death</a>
+  </div>
+  <div class="card">
+    <h2>
+      In vitae dignissim leo, eu iaculis purus. Duis quam odio, pretium nec cursus eget, placerat pulvinar quam. Donec vel mi vitae arcu mattis molestie. Nulla venenatis nisl varius ipsum laoreet volutpat. Pellentesque nec lorem sit amet nisl ultrices tempus at pretium metus. Mauris a malesuada lectus. Ut mattis massa cursus, lobortis tortor sed, faucibus turpis.
+    </h2>
+    <p>
+      <strong>Donec gravida id urna sit amet malesuada. Pellentesque tempor augue ut viverra semper.</strong> </p>
+  </div>
+
+  <div class="card">
+    <h2>
+      Suspendisse blandit nec sapien vel accumsan.
+    </h2>
+    <p>
+      Maecenas a velit leo. Ut nulla lorem, porta at pellentesque eu, laoreet sit amet nibh. Curabitur id tortor lectus. Aliquam vitae laoreet tellus. Integer egestas et ante a luctus. Maecenas interdum elementum tempor. Maecenas sed lobortis quam. Nulla iaculis pretium metus elementum mollis. Proin egestas eros enim, finibus fermentum erat mattis vel. Nullam felis sapien, convallis a bibendum eget, pellentesque vitae diam. Integer justo orci, ultrices at scelerisque vitae, malesuada sed turpis.</strong>.
+    </p>
+  </div>
+
+  <div class="mauris">
+    <h2>
+      Mauris urna ipsum, congue quis dapibus nec, dictum nec nunc. Nulla ac massa dignissim, aliquet nulla at, placerat urna. Suspendisse potenti. Maecenas posuere facilisis euismod. Donec fringilla tincidunt lectus sit amet semper.
+    </h2>
+    <p>
+      Integer varius, sapien sit amet luctus lobortis, tortor eros interdum risus, in laoreet odio metus vitae eros. Duis vel purus sed nunc aliquam gravida.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>
+      Dont follow me  :
+    </h3>
+    <ul class="list">
+      <li><a href="https://github.com/kaprans22" target="_blank">Github</a></li>
+      <li><a href="https://www.linkedin.com/in/kristofers-kapr%C4%81ns-87781b204/" target="_blank">Linkedin</a></li>
+    </ul>
+  </div>
+</body>
+</html>
